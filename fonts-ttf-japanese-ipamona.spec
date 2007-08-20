@@ -1,5 +1,5 @@
 %define version	20060712
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		fonts-ttf-japanese-ipamona
 Summary:	IPAMona fonts for Japanese
