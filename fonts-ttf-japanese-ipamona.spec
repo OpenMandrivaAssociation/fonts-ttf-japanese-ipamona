@@ -1,5 +1,5 @@
 %define version	20060712
-%define release	%mkrel 3
+%define release	%mkrel 5
 %define fontdir %_datadir/fonts/TTF/japanese-ipamona
 
 Name:		fonts-ttf-japanese-ipamona
