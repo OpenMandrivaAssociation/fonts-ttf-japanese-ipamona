@@ -1,5 +1,5 @@
 %define version	20060712
-%define release	%mkrel 7
+%define release	%mkrel 8
 %define fontdir %_datadir/fonts/TTF/japanese-ipamona
 
 Name:		fonts-ttf-japanese-ipamona
@@ -12,7 +12,6 @@ URL:		http://www.geocities.jp/ipa_mona/
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	fonts-ttf-japanese-ipamona_fonts.dir
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
-Requires(post,postun): fontconfig
 BuildArch:	noarch
 
 %description
@@ -43,12 +42,6 @@ ln -s ../../..%fontdir \
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-fc-cache
-
-%postun
-fc-cache
 
 %files
 %defattr(-,root,root)
