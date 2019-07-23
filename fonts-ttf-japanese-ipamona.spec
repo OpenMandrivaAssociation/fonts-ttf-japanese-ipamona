@@ -5,7 +5,7 @@
 Name:		fonts-ttf-japanese-ipamona
 Summary:	IPAMona fonts for Japanese
 Version:	%{version}
-Release:	%{release}
+Release:	1
 Group:		System/Fonts/True type
 License:	Distributable
 URL:		http://www.geocities.jp/ipa_mona/
