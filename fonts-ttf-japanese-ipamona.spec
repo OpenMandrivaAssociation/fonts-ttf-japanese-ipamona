@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	1
 Group:		System/Fonts/True type
 License:	Distributable
-URL:		http://www.geocities.jp/ipa_mona/
+URL:		https://www.geocities.jp/ipa_mona/
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	fonts-ttf-japanese-ipamona_fonts.dir
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
